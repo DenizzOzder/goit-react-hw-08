@@ -1,0 +1,16 @@
+.wrap {
+  padding: var(--space-3) 0;
+}
+.bar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius);
+  border: 1px solid var(--card-border);
+  background: var(--card);
+  -webkit-backdrop-filter: var(--blur);
+  backdrop-filter: var(--blur);
+  box-shadow: var(--shadow);
+}
+.left { display: flex; align-items: center; gap: var(--space-4); }
+.brand { font-weight: 700; letter-spacing: .2px; }
+.right { display: flex; align-items: center; gap: var(--space-3); }

@@ -1,0 +1,5 @@
+.card { padding: var(--space-5); margin-bottom: var(--space-6); }
+.form { display: grid; grid-template-columns: 1fr 1fr auto; gap: var(--space-3); }
+@media (max-width: 640px) {
+  .form { grid-template-columns: 1fr; }
+}

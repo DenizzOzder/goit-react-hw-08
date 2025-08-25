@@ -1,0 +1,5 @@
+.card { padding: var(--space-6); }
+.title { margin: 0 0 var(--space-4); font-size: 22px; }
+.form { display: grid; gap: var(--space-4); max-width: 540px; }
+.row { display: grid; gap: 6px; }
+.actions { display: flex; gap: var(--space-3); }

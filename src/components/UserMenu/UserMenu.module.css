@@ -1,0 +1,6 @@
+.wrap { display: flex; align-items: center; gap: var(--space-3); }
+.avatar {
+  width: 28px; height: 28px; border-radius: 999px;
+  background: linear-gradient(135deg, #93c5fd, #1c347a); border: 2px solid var(--card-border);
+}
+.name { font-weight: 600; }

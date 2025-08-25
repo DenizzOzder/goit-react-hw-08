@@ -1,0 +1,7 @@
+.nav { display: flex; gap: var(--space-3); }
+.link {
+  padding: 8px 12px; border-radius: 10px; border: 1px solid transparent;
+  color: var(--fg); text-decoration: none; opacity: .85;
+}
+.link:hover { opacity: 1; background: rgba(255,255,255,.06); border-color: var(--card-border); }
+.active { background: var(--primary); color: var(--primary-contrast); opacity: 1; }
